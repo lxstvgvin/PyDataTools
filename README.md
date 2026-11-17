@@ -1,3 +1,4 @@
+
 # PyDataTools
 
 Простая программа на Python для обработки и анализа данных о продажах из CSV-файлов.
@@ -21,28 +22,26 @@
 
 Файл `sales.csv` должен содержать следующие столбцы:
 
-```csv
-product,quantity,price
-Coffee,10,1200
-Tea,5,800
-Coffee,10,1200
+    product,quantity,price
+    Coffee,10,1200
+    Tea,5,800
+    Coffee,10,1200
 
 ## Запуск программы
 
-Поместите файл sales.csv в папку проекта и выполните команду:
+Поместите файл `sales.csv` в папку проекта и выполните команду:
 
-python main.py
+    python main.py
 
 ## Результат работы
 
-Программа создаёт файл `cleaned_sales.csv` с обработанными результатами:
+Программа создаёт файл `cleaned_sales.csv`:
 
-```csv
-product,quantity,revenue
-Coffee,20,24000
-Tea,12,9600
-Cocoa,3,4500
-Juice,2,1800
+    product,quantity,revenue
+    Coffee,20,24000
+    Tea,12,9600
+    Cocoa,3,4500
+    Juice,2,1800
 
 ## Используемые технологии
 
